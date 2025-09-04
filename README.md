@@ -47,7 +47,7 @@ conda install pytorch=1.13.0 torchvision torchaudio pytorch-cuda=11.7 -c pytorch
 
 3. Install the additional dependencies:
 ```
-cd DiffSSC/
+cd OC-SOP/
 pip install -r requirements.txt
 ```
 
@@ -59,9 +59,7 @@ conda activate dvis
 pip install visdom
 git clone git@github.com:SirWyver/dvis.git
 cd dvis
-pip install .```
-$ conda create -y -n ndcscene python=3.7
-$ conda activate ndcscene
+pip install .
 ```
 ## Datasets
 - The **Semantic Scene Completion dataset v1.1** (SemanticKITTI voxel data (700 MB)) from [SemanticKITTI website](http://www.semantic-kitti.org/dataset.html#download)
