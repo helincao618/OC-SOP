@@ -64,11 +64,9 @@ $ conda create -y -n ndcscene python=3.7
 $ conda activate ndcscene
 ```
 ## Datasets
-
-1. You need to download
-  - The **Semantic Scene Completion dataset v1.1** (SemanticKITTI voxel data (700 MB)) from [SemanticKITTI website](http://www.semantic-kitti.org/dataset.html#download)
-  -  The **KITTI Odometry Benchmark calibration data** (Download odometry data set (calibration files, 1 MB)) and the **RGB images** (Download odometry data set (color, 65 GB)) from [KITTI Odometry website](http://www.cvlibs.net/datasets/kitti/eval_odometry.php).
-  - The dataset folder at **/path/to/semantic_kitti** should have the following structure:
+- The **Semantic Scene Completion dataset v1.1** (SemanticKITTI voxel data (700 MB)) from [SemanticKITTI website](http://www.semantic-kitti.org/dataset.html#download)
+-  The **KITTI Odometry Benchmark calibration data** (Download odometry data set (calibration files, 1 MB)) and the **RGB images** (Download odometry data set (color, 65 GB)) from [KITTI Odometry website](http://www.cvlibs.net/datasets/kitti/eval_odometry.php).
+- The dataset folder at **/path/to/semantic_kitti** should have the following structure:
     ```
     └── /path/to/semantic_kitti/
       └── dataset
@@ -84,7 +82,7 @@ $ conda activate ndcscene
           ├── 01
           ...
     ```
-  - The **KITTI 3D Object Detection dataset** (Download left color images (12 GB), Velodyne point clouds (29 GB), calibration files, and training labels (5 MB)) from [KITTI Object Detection website](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d).  
+- The **KITTI 3D Object Detection dataset** (Download left color images (12 GB), Velodyne point clouds (29 GB), calibration files, and training labels (5 MB)) from [KITTI Object Detection website](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d).  
 
 # Scripts
 All the scripts is controlled by the `/OC-SOP/ocsop/config/`
@@ -120,7 +118,7 @@ If you find this work or code useful, please cite our paper and give this repo a
 ```
 
 # License and Acknowledgement
-DiffSSC is released under the [MIT license](./LICENSE). Our code follows several awesome repositories. We appreciate them for making their codes available to public.
+OC-SOP is released under the [MIT license](./LICENSE). Our code follows several awesome repositories. We appreciate them for making their codes available to public.
 - [MonoScene](https://github.com/astra-vision/MonoScene)
 - [DVIS](https://github.com/SirWyver/dvis)
 - [SemanticKitti](https://github.com/PRBonn/semantic-kitti-api)
